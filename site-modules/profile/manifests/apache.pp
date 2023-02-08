@@ -1,6 +1,7 @@
 # @summary A short summary of the purpose of this class
 #
-# A description of what this class does
+# Configure Apache and install a default 
+# Hello World website from a module
 #
 # @example
 #   include profile::apache
