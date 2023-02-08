@@ -13,4 +13,6 @@ class profile::apache {
       port    => 80,
       docroot => $docroot,
   }
+
+  include pe_intro_hello_world::website
 }
