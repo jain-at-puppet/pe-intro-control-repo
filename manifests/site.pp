@@ -27,5 +27,7 @@ File { backup => false }
 node default {
   if $facts['hostname'] =~ /(nixagent).*/ {
     include role::webserver
+  } else {
+    include role::primary
   }
 }
